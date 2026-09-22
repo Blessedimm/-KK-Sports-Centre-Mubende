@@ -1,0 +1,379 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KK Sports Centre Mubende</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+  <div id="loader">
+    <img src="images/kk sports centre logo.jpg" alt="KK Sports Centre Logo">
+    <h2>KK Sports Centre Mubende</h2>
+</div>
+<section class="slider">
+  <div class="slides">
+    <img src="Images/banner1.jpg" class="slide active" alt="KK Sports Centre banner">
+    <img src="Images/banner2.jpg" class="slide" alt="KK Sports Centre banner">
+    <img src="Images/banner3.jpg" class="slide" alt="KK Sports Centre banner">
+  </div>
+</section>
+
+<header>
+  <div class="logo">
+    <img src="Images/kk sports centre logo.jpg" alt="KK Sports Centre Logo">
+  </div>
+
+  <button id="themeBtn">🌙</button>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#jerseys">Jerseys</a>
+    <a href="#ceo">CEO</a>
+    <a href="#contact">Contact</a>
+
+    <div class="cart">
+      <i class="fa-solid fa-cart-shopping"></i>
+      <span id="cart-count">0</span>
+    </div>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+
+<h1>KK Sports Centre Mubende</h1>
+
+<p>Quality Jerseys • Sports Kits • Football Accessories</p>
+
+<a href="#jerseys" class="btn">Shop Now</a>
+
+</section>
+
+<section class="search-section">
+
+<input type="text" id="search" placeholder="Search jersey...">
+
+</section>
+
+<section id="jerseys">
+
+<h2>Available Jerseys</h2>
+
+<div class="gallery">
+
+    
+<div class="filters">
+
+<button onclick="filterTeam('all')">All</button>
+
+<button onclick="filterTeam('Manchester')">Man United</button>
+
+<button onclick="filterTeam('Arsenal')">Arsenal</button>
+
+<button onclick="filterTeam('Real')">Real Madrid</button>
+
+<button onclick="filterTeam('Barcelona')">Barcelona</button>
+
+</div>
+
+
+<div class="card" data-name="Manchester United" data-product="Manchester United Jersey">
+
+<span class="badge">10% OFF</span>
+
+<img src="images/Manchester United.jpg">
+
+<h3>Manchester United Jersey</h3>
+
+<p><del>UGX 50,000</del></p>
+
+<p class="price">UGX 45,000</p>
+
+<label>Size</label>
+
+<select class="size">
+
+<option>S</option>
+
+<option>M</option>
+
+<option>L</option>
+
+<option>XL</option>
+
+</select>
+
+<button class="add-cart">Add to Cart</button>
+
+<a class="whatsapp"
+href="https://wa.me/256709525951?text=I%20want%20the%20Manchester%20United%20Jersey."
+target="_blank">
+Order on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card" data-name="Arsenal" data-product="Arsenal Jersey">
+
+<span class="badge">10% OFF</span>
+
+<img src="images/Arsenal.jpeg">
+
+<h3>Arsenal Jersey</h3>
+
+<p><del>UGX 50,000</del></p>
+
+<p class="price">UGX 45,000</p>
+
+<label>Size</label>
+
+<select class="size">
+
+<option>S</option>
+
+<option>M</option>
+
+<option>L</option>
+
+<option>XL</option>
+
+</select>
+
+<button class="add-cart">Add to Cart</button>
+
+<a class="whatsapp"
+href="https://wa.me/256709525951?text=I%20want%20the%20Manchester%20United%20Jersey."
+target="_blank">
+Order on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card" data-name="Real" data-product="Real Madrid Jersey">
+
+<span class="badge">10% OFF</span>
+
+<img src="images/Real Madrid.jpg">
+
+<h3>Real Madrid Jersey</h3>
+
+<p><del>UGX 50,000</del></p>
+
+<p class="price">UGX 45,000</p>
+
+<label>Size</label>
+
+<select class="size">
+
+<option>S</option>
+
+<option>M</option>
+
+<option>L</option>
+
+<option>XL</option>
+
+</select>
+
+<button class="add-cart">Add to Cart</button>
+
+<a class="whatsapp"
+href="https://wa.me/256709525951?text=I%20want%20the%20Manchester%20United%20Jersey."
+target="_blank">
+Order on WhatsApp
+</a>
+
+</div>
+
+
+<div class="card" data-name="Manchester United" data-product="Full Jersey">
+
+<span class="badge">10% OFF</span>
+
+<img src="images/jersey1.jpg">
+
+<h3>Full Jersey</h3>
+
+<p><del>UGX 50,000</del></p>
+
+<p class="price">UGX 45,000</p>
+
+<label>Size</label>
+
+<select class="size">
+
+<option>S</option>
+
+<option>M</option>
+
+<option>L</option>
+
+<option>XL</option>
+
+</select>
+
+<button class="add-cart">Add to Cart</button>
+
+<a class="whatsapp"
+href="https://wa.me/256709525951?text=I%20want%20the%20Manchester%20United%20Jersey."
+target="_blank">
+Order on WhatsApp
+</a>
+
+<div class="card" data-name="all" data-product="Original Jersey 5">
+<img src="images/jersey5.jpg" alt="Original Jersey 5">
+<h3>Original Jersey 5</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="card" data-name="all" data-product="Original Jersey 6">
+<img src="images/jersey6.jpg" alt="Original Jersey 6">
+<h3>Original Jersey 6</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="card" data-name="all" data-product="Original Jersey 7">
+<img src="images/jersey7.jpg" alt="Original Jersey 7">
+<h3>Original Jersey 7</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="card" data-name="all" data-product="Original Jersey 8">
+<img src="images/jersey8.jpg" alt="Original Jersey 8">
+<h3>Original Jersey 8</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="card" data-name="all" data-product="Original Jersey 9">
+<img src="images/jersey9.jpg" alt="Original Jersey 9">
+<h3>Original Jersey 9</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="card" data-name="all" data-product="Original Jersey 10">
+<img src="images/jersey10.jpg" alt="Original Jersey 10">
+<h3>Original Jersey 10</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="card" data-name="all" data-product="Original Jersey 11">
+<img src="images/jersey11.jpg" alt="Original Jersey 11">
+<h3>Original Jersey 11</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="card" data-name="all" data-product="Original Jersey 12">
+<img src="images/jersey12.jpg" alt="Original Jersey 12">
+<h3>Original Jersey 12</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+<div class="card" data-name="all" data-product="Original Jersey 13">
+<img src="images/jersey13.jpg" alt="Original Jersey 13">
+<h3>Original Jersey 13</h3>
+<p class="price">UGX 45,000</p>
+<label>Size</label>
+<select class="size"><option>S</option><option>M</option><option>L</option><option>XL</option></select>
+<button class="add-cart">Add to Cart</button>
+</div>
+
+
+</div>
+
+</section>
+
+<section id="ceo" class="ceo">
+
+<div class="ceo-container">
+
+<img src="images/CEO KK sports centre.jpg" alt="Kyenda Keny, CEO of KK Sports Centre Mubende">
+
+<div>
+
+<h2>CEO</h2>
+
+<h3>Kyenda Keny</h3>
+
+<p>Leading KK Sports Centre Mubende with a mission to provide quality sportswear for every fan and athlete.</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Visit Us</h2>
+
+<p><i class="fa-solid fa-location-dot"></i> Along Kakumiro Road, Opposite Mayors Garden, Mubende</p>
+
+<p><i class="fa-solid fa-phone"></i> +256 709 525 951</p>
+
+<p><i class="fab fa-whatsapp"></i> +256709525951</p>
+
+<div class="socials">
+
+<a href="#"><i class="fab fa-facebook"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-tiktok"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>© 2026 KK Sports Centre Mubende</p>
+<p>Designed and developed by Lumetixtechnologies</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+<a href="https://wa.me/256709525951"
+class="floating-whatsapp"
+target="_blank">
+
+💬
+
+</a>
+</body>
+</html>
